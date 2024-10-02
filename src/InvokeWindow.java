@@ -47,6 +47,8 @@ public class InvokeWindow {
 		 String courseName =  driver.findElements(By.cssSelector("a[href*='https://courses.rahulshettyacademy.com/p']")).get(1).getText();
 		 
 		 System.out.println(courseName);
+		 System.out.println(courseName);
+
 		 
 		 
 		 // Again Swith to ParentWindow
