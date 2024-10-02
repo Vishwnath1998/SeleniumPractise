@@ -41,23 +41,23 @@ public class Screenshots {
 	   // SCreenshot as Section 	
 		
 		WebElement img = driver.findElement(By.xpath("//img[@width='508']"));
-//		
-//		File srcFile = img.getScreenshotAs(OutputType.FILE);
-//		
-//		File trgFile = new File(".\\Screenshot\\Section.png");
-//		
-//		FileUtils.copyFile(srcFile, trgFile);
+		
+		File srcFile = img.getScreenshotAs(OutputType.FILE);
+		
+		File trgFile = new File(".\\Screenshot\\Section.png");
+		
+		FileUtils.copyFile(srcFile, trgFile);
 		
 		
 		// Screenshot as Element
 		
-		  WebElement element =  driver.findElement(By.cssSelector("h2[id='2c54']"));
-		  
-		  File srcFile = element.getScreenshotAs(OutputType.FILE);
-			
-		  File trgFile = new File(".\\Screenshot\\element.png");
-			
-		  FileUtils.copyFile(srcFile, trgFile);
+//		  WebElement element =  driver.findElement(By.cssSelector("h2[id='2c54']"));
+//		  
+//		  File srcFile = element.getScreenshotAs(OutputType.FILE);
+//			
+//		  File trgFile = new File(".\\Screenshot\\element.png");
+//			
+//		  FileUtils.copyFile(srcFile, trgFile);
 			
 		
 		  
