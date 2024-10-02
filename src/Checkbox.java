@@ -42,7 +42,7 @@ public class Checkbox {
 		
 		Assert.assertTrue(driver.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
 		
-		//System.out.println(driver.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
+		System.out.println(driver.findElement(By.cssSelector("input[id*='friendsandfamily']")).isSelected());
 		//System.out.println(driver.findElement(By.cssSelector("input[type='checkbox']")).size());
 		
 		driver.close();
